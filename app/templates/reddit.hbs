@@ -1,0 +1,10 @@
+<h1>Reddit</h1>
+{{#each model as |subreddit|}}
+  <div class="spacer">
+    <strong><p>{{subreddit.data.title}}</p></strong>
+    <p>Score: {{subreddit.data.score}}</p>
+    <p>Number of comments: {{subreddit.data.num_comments}}</p>
+  </div>
+  {{else}}
+  <p>Nothing's happening</p>
+{{/each}}

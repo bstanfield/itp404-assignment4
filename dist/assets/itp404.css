@@ -1,0 +1,31 @@
+.spacer {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: 'Helvetica Neue';
+  color: #333333;
+}
+
+li {
+  display: inline;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+a:hover {
+  color: blue;
+}
+
+h1 {
+  margin: 0px 0px 0px 40px;
+}
+
+p {
+  margin: 10px 0px 0px 40px;
+}
